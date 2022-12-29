@@ -6,7 +6,9 @@ presenters:
 
             david stern 315556308
             
-subject: Send updates with Observer(a disin pattern) and track object size in Heap.
+subject: 
+          
+            Send updates with Observer(a disin pattern) and track object size in Heap.
 
 ## observer
 
