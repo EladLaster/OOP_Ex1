@@ -15,6 +15,11 @@ subject:
 the observer desin pattern is a
 
 ### classes
+
+Member:
+
+Sender:
+
 ConcreteMember:
 
 GroupAdmin:
