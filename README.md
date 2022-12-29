@@ -6,7 +6,7 @@
 
             david stern 315556308
             
-**subject: 
+*subject:* 
           
             Send updates with Observer(a design pattern) and track object size in Heap.
 
@@ -21,7 +21,7 @@ The Observer is a design pattern that enables updating all users of the site by 
 
 ## classes
 
-**GroupAdmin:
+*GroupAdmin:*
 
 In order to unite all users who want to receive updates from the GroupAdmin, we will build the group that will serve as our "update center" and in which the changes in the information will occur.
 In it, changes in the information will happen, and any updates made will automatically reach those registered in the group
@@ -29,8 +29,8 @@ We will do this with the help of the "register" function in which we will put th
 to each function we will attach the command function "Notify" and with its help we will send the updates to all the members in the list.
 Of course, any user will also be able to exit the "Update Center" by the "unregister" function.
 
-**ConcreteMember:
+*ConcreteMember:*
 
 Within the ConcreteMember there will be the "update" function, which will actually make a shallow copying of the information that entered the "Update Center" directly into it and thus the user will be able to see the change made to the information. Each user will decide to be placed on the list of users and also to exit it at any time he chooses.
 
-Tests:
+*Tests:*
