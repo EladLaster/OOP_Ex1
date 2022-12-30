@@ -9,7 +9,7 @@ public class GroupAdmin implements Sender {
     /**
      * Empty constructor that creates an empty ArrayList and a new UndoableStringBuilder.
      */
-    GroupAdmin() {
+    public GroupAdmin() {
         arrMember = new ArrayList<Member>();
         usb = new UndoableStringBuilder();
     }
