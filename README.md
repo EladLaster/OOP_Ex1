@@ -31,19 +31,19 @@ Of course, any user will also be able to exit the "Update Center" by the "unregi
 
 We will use the following functions in this class:
 
-- _register_-
+- _register()_-
 
-- unregister-
+- _unregister()_-
 
--append-
+- _append()_-
 
--insert-
+- _insert()_-
 
--delete-
+- _delete()_-
 
--undo-
+- _undo()_-
 
--notify-
+- _notify()_-
 
 *ConcreteMember:*
 
@@ -51,6 +51,7 @@ Within the ConcreteMember there will be the "update" function, which will actual
 
 We will use the following functions in this class:
 
+- _update()_-
 
 
 ## tests
