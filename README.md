@@ -38,7 +38,20 @@ We will use the following functions in this class:
 Within the ConcreteMember there will be the "update" function, which will actually make a shallow copying of the information that entered the "Update Center" directly into it and thus the user will be able to see the change made to the information. Each user will decide to be placed on the list of users and also to exit it at any time he chooses.
 
 We will use the following functions in this class:
+
 _register_-
+
+^^unregister-
+
+^append^-
+
+"insert"-
+
+""delete-
+
+undo-
+
+notify-
 
 
 ## tests
