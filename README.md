@@ -15,7 +15,7 @@
 
                         git clone https://github.com/EladLaster/Object_Oriented_1.git   
                                                
-2) Imported it in any Java IDE.
+2) Open in any Java IDE.
  
 3) run().
 
