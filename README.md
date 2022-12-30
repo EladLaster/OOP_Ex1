@@ -31,9 +31,9 @@ Of course, any user will also be able to exit the "Update Center" by the "unregi
 
 We will use the following functions in this class:
 
--_register_-
+- _register_-
 
--unregister-
+- unregister-
 
 -append-
 
