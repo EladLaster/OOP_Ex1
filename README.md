@@ -9,6 +9,15 @@
 *subject:*
           
             Send updates with Observer(a design pattern) and track object size in Heap.
+            
+## get start 
+1) clone the repository:
+
+                        git clone https://github.com/EladLaster/Object_Oriented_1.git   
+                                               
+2) Imported it in Intellij IDEA or any other Java IDE.
+3) 
+4) run().
 
 ## the observer design pattern
 
@@ -31,19 +40,19 @@ Of course, any user will also be able to exit the "Update Center" by the "unregi
 
 We will use the following functions in this class:
 
-- _register()_-
+- _register()_- registers a new member to a GroupAdmin and adds him to the arrMember list.
 
-- _unregister()_-
+- _unregister()_- unregister a specific member from the GroupAdmin and remove him from the arrMember list.
 
-- _append()_-
+- _append()_- Inserts the string into this character sequence.
 
-- _insert()_-
+- _insert()_- Appends the specified string to the group.
 
-- _delete()_-
+- _delete()_- Delete the characters in a substring of this sequence.
 
-- _undo()_-
+- _undo()_- Cancels the last change that was made to the sequence and goes back to the previous sequence.
 
-- _notify()_-
+- _notify()_- notifies all the members in the GroupAdmin with any change that happens.
 
 *ConcreteMember:*
 
@@ -51,7 +60,7 @@ Within the ConcreteMember there will be the "update" function, which will actual
 
 We will use the following functions in this class:
 
-- _update()_-
+- _update()_-  Updating the change thet happans to the member by a shallow copy.
 
 
 ## tests
