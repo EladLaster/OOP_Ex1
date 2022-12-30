@@ -10,7 +10,7 @@
           
             Send updates with Observer(a design pattern) and track object size in Heap.
 
-## observer
+## the observer design pattern
 
 The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 
@@ -29,8 +29,33 @@ We will do this with the help of the "register" function in which we will put th
 to each function we will attach the command function "Notify" and with its help we will send the updates to all the members in the list.
 Of course, any user will also be able to exit the "Update Center" by the "unregister" function.
 
+We will use the following functions in this class:
+
+
+
 *ConcreteMember:*
 
 Within the ConcreteMember there will be the "update" function, which will actually make a shallow copying of the information that entered the "Update Center" directly into it and thus the user will be able to see the change made to the information. Each user will decide to be placed on the list of users and also to exit it at any time he chooses.
 
-*Tests:*
+We will use the following functions in this class:
+
+
+
+## tests
+
+*GroupAdmin test:*
+
+In this class, we will check the functions of the "Update Center".
+In the "register" function, We would like to see that indeed the new users are added to the list of registered . 
+In the "unregister" function,  We would like to see that indeed the users who wanted to exit the list of registered did indeed exit it
+In all functions of changing information, We would also like to see that any changes made to the information has really happened.
+In the "Notify" function, we will check whether the users have indeed received the information they should have received.
+
+*ConcreteMember test:*
+
+In this class, we will check whether the "users" function.
+In te "update" function, We would like to see that the information copied to users is indeed the exact information that came from the "Update Center".
+
+*JvmUtieles test:*
+
+In this class, we would like to test the efficiency of the realization of our functions. We will see the size of the object, all the references that the object contains, and the total amount of memory for the benefit of the program.
