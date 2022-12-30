@@ -101,12 +101,14 @@ public class GroupAdmin implements Sender {
             (arrMember.get(i)).update(usb);
         }
     }
-//        public String toString() {
-//        for (int i = 0; i < arrMember.size(); i++) {
-//            System.out.println(arrMember.get(i).toString());
-//        }
-//        return null;
-//    }
+public String toString() {
+        String st="[ ";
+        for (int i = 0; i < arrMember.size(); i++) {
+            st=st+arrMember.get(i).toString()+", ";
+        }
+        st=st+" ]";
+        return st;
+    }
 }
 
 
