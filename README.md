@@ -15,9 +15,9 @@
 
                         git clone https://github.com/EladLaster/Object_Oriented_1.git   
                                                
-2) Imported it in Intellij IDEA or any other Java IDE.
-3) 
-4) run().
+2) Imported it in any Java IDE.
+ 
+3) run().
 
 ## the observer design pattern
 
