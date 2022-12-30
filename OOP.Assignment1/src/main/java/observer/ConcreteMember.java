@@ -4,7 +4,7 @@ public class ConcreteMember implements Member {
 
     UndoableStringBuilder usb;
 
-    ConcreteMember() {
+    public ConcreteMember() {
         usb = new UndoableStringBuilder();
     }
 
