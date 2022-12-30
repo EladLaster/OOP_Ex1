@@ -6,7 +6,7 @@
 
             david stern 315556308
             
-*subject:* 
+_*subject:*_ 
           
             Send updates with Observer(a design pattern) and track object size in Heap.
 
