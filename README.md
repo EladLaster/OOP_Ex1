@@ -17,7 +17,10 @@
                                                
 2) Open in any Java IDE.
  
-3) run().
+3) Build a GroupAdmin object and a ConcreteMember object,register your ConcreteMember to the GroupAdmin, use the functions in the GroupAdmin class to add and change the UndoableStringBuilder object, run() the project and see how all the ConcreteMember objects will update.
+
+4) Enjoy!!!
+
 
 ## the observer design pattern
 
